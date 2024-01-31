@@ -1,0 +1,45 @@
+/* 搜索页的样式 */
+.hok_archive {
+    &__title {
+        display: flex;
+        align-items: center;
+        color: var(--main);
+        box-shadow: var(--box-shadow);
+        background: var(--background);
+        padding: 0.8rem;
+        border: var(--border-style);
+        border-radius: var(--radius-wrap);
+
+        &-icon {
+            width: 18px;
+            height: 18px;
+            min-width: 18px;
+            min-height: 18px;
+            margin-right: 0.3rem;
+        }
+
+        &-title {
+            display: flex;
+            align-items: center;
+
+            .muted {
+                color: var(--theme);
+                margin: 0 0.3rem;
+            }
+        }
+    }
+
+    &__empty {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 3rem 0;
+        color: var(--routine);
+
+        &-icon {
+            margin-bottom: 1.5rem;
+            fill: var(--routine);
+        }
+    }
+}
